@@ -1,0 +1,16 @@
+[package]
+name = "ype-ændroid"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mark CDA <aclo.create@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+eframe = "0.17.0"
+
+[profile.release]
+opt-level = 2
